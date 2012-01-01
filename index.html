@@ -1,0 +1,36 @@
+<!-- Javascript Sudoku by Matthew Eagar -->
+<!-- http://www.meagar.net -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+	<title>JQuery Sudoku</title>
+	<script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="sudoku.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="sudoku.css" />
+
+</head>
+
+<body>
+	<div id="Container">
+	</div>
+
+	<div id="Buttons" style="text-align:center">
+		<p>Navigate with arrow keys or mouse</p>
+		<p>1-9 to fill a space, 0/delete/space to clear.</p>
+		<button onclick="javascript:return makeBoard()">New</button>
+		<button onclick="javascript:return resetBoard()">Reset</button>
+		<button onclick="javascript:return solveBoard()">Solve</button>
+		<button onclick="javascript:return clearBoard()">Clear</button>
+	</div>
+
+	<div id="Copy">
+		<a href="http://meagar.net">Matthew Eagar</a>
+	</div>
+
+</body>
+
+</html>
