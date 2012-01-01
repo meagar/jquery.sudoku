@@ -342,7 +342,7 @@ function setSel(x, y) {
 
 // Handle key presses, returning false (to cancel the key press) if we handled
 // it, or true if the browser should handle the key
-$(document).keypress(function(e) {
+$(document).keyup(function(e) {
 
 	var keynum;
 	var keychar;
