@@ -1,0 +1,49 @@
+body {
+	font-family:arial;
+}
+
+#Copy {
+	padding:50px;
+	text-align:center;
+	font-size:smaller;
+}
+
+#Copy a { color:#000; }
+
+#Container {
+	background:url("gfx/board.jpg") top left no-repeat;
+	margin: 0 auto;
+	padding:0;
+	width:745px;
+	height:698px;
+	position:relative;
+}
+
+table {
+	position:absolute;
+	top:94px;
+	left:86px;
+	margin:0;
+	border-collapse:collapse;
+}
+
+td {
+	padding:2px 0 0 2px;
+}
+
+td a {
+	display:table-cell;
+	text-align:center;
+	width:58px;
+	height:58px;
+	vertical-align:middle;
+	font-size:30px;
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+}
+
+a.Valid { color:#070; }
+a.Invalid { color:#f00; background:url("gfx/invalid.png"); }
+a.Fixed, a.Fixed.Invalid { color:#84663e; }
+a.Sel { background:url("gfx/selected.png"); }
