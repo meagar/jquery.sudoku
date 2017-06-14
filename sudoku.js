@@ -14,7 +14,7 @@
  */
 
 
-$(document).ready(function() {
+$(function() {
 	// ID of the container for the Sudoku board
 	initBoard('Container');
 	makeBoard();
